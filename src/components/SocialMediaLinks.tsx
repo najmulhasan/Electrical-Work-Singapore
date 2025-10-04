@@ -49,8 +49,8 @@ const contactMethods = [
   },
   {
     icon: Mail,
-    text: 'askengineeringptetld@gmail.com',
-    link: 'mailto:askengineeringptetld@gmail.com',
+    text: 'askengineeringpteltd@gmail.com',
+    link: 'mailto:askengineeringpteltd@gmail.com',
     description: 'Send us an email'
   },
   {

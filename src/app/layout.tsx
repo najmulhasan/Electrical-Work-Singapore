@@ -98,7 +98,7 @@ export default function RootLayout({
               "description": "Professional electrical services in Singapore. Licensed electricians for residential, commercial & industrial projects.",
               "url": "https://powertech-electrical-sg.com",
               "telephone": "+6586439469",
-              "email": "askengineeringptetld@gmail.com",
+              "email": "askengineeringpteltd@gmail.com",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "123 Electrical Street",

@@ -59,7 +59,7 @@ export class NotificationService {
 
       const mailOptions = {
         from: emailConfig.auth.user,
-        to: 'askengineeringptetld@gmail.com', // Your business email
+        to: 'askengineeringpteltd@gmail.com', // Your business email
         subject: `New Contact Form Submission from ${formData.name}`,
         html: emailContent,
         replyTo: formData.email,

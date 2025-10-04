@@ -28,7 +28,7 @@ export default function Header() {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>askengineeringptetld@gmail.com</span>
+                <span>askengineeringpteltd@gmail.com</span>
               </div>
             </div>
             <div className="hidden md:flex items-center space-x-2">

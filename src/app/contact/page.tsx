@@ -30,7 +30,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email',
-    details: ['askengineeringptetld@gmail.com', 'askengineeringptetld@gmail.com'],
+    details: ['askengineeringpteltd@gmail.com', 'askengineeringpteltd@gmail.com'],
     description: 'Send us an email for inquiries or service requests'
   },
   {
@@ -133,7 +133,7 @@ export default function ContactPage() {
                 <span>Call Now</span>
               </a>
               <a
-                href="mailto:askengineeringptetld@gmail.com"
+                href="mailto:askengineeringpteltd@gmail.com"
                 className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 flex items-center justify-center space-x-2"
               >
                 <Mail className="h-5 w-5" />
@@ -186,7 +186,7 @@ export default function ContactPage() {
                       value={formData.email}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      placeholder="askengineeringptetld@gmail.com"
+                      placeholder="askengineeringpteltd@gmail.com"
                     />
                   </div>
                 </div>

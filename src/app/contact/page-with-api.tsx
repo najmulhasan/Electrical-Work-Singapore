@@ -21,7 +21,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email',
-    details: ['askengineeringptetld@gmail.com', 'askengineeringptetld@gmail.com'],
+    details: ['askengineeringpteltd@gmail.com', 'askengineeringpteltd@gmail.com'],
     description: 'Send us an email for inquiries or service requests'
   },
   {

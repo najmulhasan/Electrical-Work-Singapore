@@ -13,7 +13,7 @@ export const initEmailJS = () => {
 };
 
 // Your business email
-export const BUSINESS_EMAIL = 'askengineeringptetld@gmail.com';
+export const BUSINESS_EMAIL = 'askengineeringpteltd@gmail.com';
 
 // Email template parameters
 export type EmailParams = {
