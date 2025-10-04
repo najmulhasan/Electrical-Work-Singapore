@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Linkedin } from 'lucide-react';
 
 export default function Footer() {
@@ -8,10 +9,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">⚡</span>
-              </div>
+            <div className="flex items-center space-x-3">
+              <Image 
+                src="/logo.jpg" 
+                alt="Ask Engineering & Pte Ltd Logo" 
+                width={40}
+                height={40}
+                className="h-10 w-10 object-contain rounded-lg"
+                priority
+              />
               <div>
                 <h3 className="text-xl font-bold">Ask Engineering Pte Ltd</h3>
                 <p className="text-sm text-gray-400">Electrical Singapore</p>

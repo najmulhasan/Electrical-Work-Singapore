@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X, Phone, Mail, MapPin } from 'lucide-react';
 
 export default function Header() {
@@ -44,13 +45,18 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">⚡</span>
-              </div>
+            <Link href="/" className="flex items-center space-x-3">
+              <Image 
+                src="/logo.jpg" 
+                alt="Ask Engineering & Pte Ltd Logo" 
+                width={52}
+                height={52}
+                className="h-13 w-13 object-contain"
+                priority
+              />
               <div className="hidden sm:block">
-                <h1 className="text-xl font-bold text-gray-900">Ask Engineering</h1>
-                <p className="text-xs text-gray-600">& Pte Ltd</p>
+                <h1 className="text-2xl font-bold text-gray-900">Ask Engineering</h1>
+                <p className="text-sm text-gray-600">& Pte Ltd</p>
               </div>
             </Link>
           </div>
