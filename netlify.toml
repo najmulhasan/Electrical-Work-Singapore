@@ -8,5 +8,22 @@
   NEXT_USE_NETLIFY_EDGE = "true"
   NEXT_FORCE_EDGE_IMAGES = "true"
 
+# Custom domain configuration
+[[redirects]]
+  from = "https://electricalworksingapore.com/*"
+  to = "/:splat"
+  status = 200
+
+[[redirects]]
+  from = "http://electricalworksingapore.com/*"
+  to = "https://electricalworksingapore.com/:splat"
+  status = 301
+
+# Force HTTPS for custom domain
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+
 [[plugins]]
   package = "@netlify/plugin-nextjs"

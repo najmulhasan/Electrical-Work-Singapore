@@ -1,4 +1,4 @@
-# Complete Digital Marketing Setup for PowerTech Electrical Singapore
+# Complete Digital Marketing Setup for Ask Engineering Pte Ltd Singapore
 
 ## 🚀 Your Website is Now Marketing-Ready!
 
@@ -13,7 +13,7 @@ Your electrical business website is now fully optimized for digital marketing wi
 ## 📱 Social Media Marketing Setup
 
 ### 1. Facebook Business Page
-- **Page Name**: PowerTech Electrical Singapore
+- **Page Name**: Ask Engineering Pte Ltd Singapore
 - **URL**: facebook.com/powertech-electrical-sg
 - **Content Strategy**:
   - Daily electrical safety tips
@@ -23,7 +23,7 @@ Your electrical business website is now fully optimized for digital marketing wi
   - Singapore electrical news
 
 ### 2. Instagram Business Account
-- **Handle**: @powertech_electrical_sg
+- **Handle**: @Ask Engineering Pte Ltd
 - **Content Strategy**:
   - Project showcases with photos/videos
   - Electrical safety infographics
@@ -32,7 +32,7 @@ Your electrical business website is now fully optimized for digital marketing wi
   - Reels for trending content
 
 ### 3. LinkedIn Company Page
-- **URL**: linkedin.com/company/powertech-electrical-singapore
+- **URL**: linkedin.com/company/Ask Engineering Pte Ltd-singapore
 - **Content Strategy**:
   - Professional electrical insights
   - Industry news and updates
@@ -41,7 +41,7 @@ Your electrical business website is now fully optimized for digital marketing wi
   - B2B networking
 
 ### 4. WhatsApp Business
-- **Number**: +65 83702423
+- **Number**: +65 8643 9469
 - **Features**:
   - Automated responses
   - Quick quote requests

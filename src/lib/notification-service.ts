@@ -53,7 +53,7 @@ export class NotificationService {
         <p><strong>Message:</strong></p>
         <p>${formData.message}</p>
         <hr>
-        <p><em>This message was sent from your PowerTech Electrical website contact form.</em></p>
+        <p><em>This message was sent from your Ask Engineering Pte Ltd website contact form.</em></p>
         <p><em>Timestamp: ${new Date().toLocaleString()}</em></p>
       `;
 

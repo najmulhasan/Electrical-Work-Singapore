@@ -15,8 +15,8 @@ import {
 
 // Note: In a real application, you would move this to a separate metadata file
 // export const metadata: Metadata = {
-//   title: 'Contact PowerTech Electrical Singapore | Get Free Quote',
-//   description: 'Contact PowerTech Electrical Singapore for professional electrical services. Get free quotes, emergency service, and expert electrical solutions across Singapore.',
+//   title: 'Contact Ask Engineering Pte Ltd Singapore | Get Free Quote',
+//   description: 'Contact Ask Engineering Pte Ltd Singapore for professional electrical services. Get free quotes, emergency service, and expert electrical solutions across Singapore.',
 //   keywords: ['contact electrician singapore', 'electrical quote singapore', 'emergency electrician singapore', 'electrical services contact'],
 // };
 
@@ -361,7 +361,7 @@ export default function ContactPage() {
               Areas We Serve
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              PowerTech Electrical provides professional electrical services across Singapore
+            Ask Engineering Pte Ltd provides professional electrical services across Singapore
             </p>
           </div>
 

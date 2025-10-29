@@ -111,7 +111,7 @@ export default function ContactPageWithAPI() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl lg:text-6xl font-bold mb-6">
-              Contact PowerTech Electrical Singapore
+              Contact Ask Engineering Pte Ltd Singapore
             </h1>
             <p className="text-xl lg:text-2xl text-blue-100 max-w-3xl mx-auto mb-8">
               Get in touch for professional electrical services. Free quotes, emergency service, 
@@ -354,7 +354,7 @@ export default function ContactPageWithAPI() {
               Areas We Serve
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              PowerTech Electrical provides professional electrical services across Singapore
+            Ask Engineering Pte Ltd provides professional electrical services across Singapore
             </p>
           </div>
 

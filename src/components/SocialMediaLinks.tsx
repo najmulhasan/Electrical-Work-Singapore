@@ -13,14 +13,14 @@ const socialLinks = [
   {
     name: 'Facebook',
     icon: Facebook,
-    url: 'https://facebook.com/powertech-electrical-sg',
+    url: 'https://www.facebook.com/share/1KVbzBSKbc/',
     color: 'bg-blue-600 hover:bg-blue-700',
     description: 'Follow us for electrical tips and updates'
   },
   {
     name: 'Instagram',
     icon: Instagram,
-    url: 'https://instagram.com/powertech_electrical_sg',
+    url: 'https://www.instagram.com/islamfarid8643?igsh=eTl3ODQ5YnRpa25s',
     color: 'bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600',
     description: 'See our electrical work in action'
   },
@@ -34,7 +34,7 @@ const socialLinks = [
   {
     name: 'WhatsApp',
     icon: MessageCircle,
-    url: 'https://wa.me/6583702423',
+    url: 'https://api.whatsapp.com/send/?phone=6586439469&text&type=phone_number&app_absent=0',
     color: 'bg-green-500 hover:bg-green-600',
     description: 'Chat with us directly'
   }
@@ -67,7 +67,7 @@ export default function SocialMediaLinks() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Connect With PowerTech Electrical
+            Connect With Ask Engineering Pte Ltd
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Follow us on social media for electrical tips, project showcases, and special offers. 
@@ -130,7 +130,7 @@ export default function SocialMediaLinks() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://www.google.com/search?q=PowerTech+Electrical+Singapore+reviews"
+              href="https://www.google.com/search?q=Ask Engineering Pte Ltd+Singapore+reviews"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200"
@@ -138,7 +138,7 @@ export default function SocialMediaLinks() {
               Read Google Reviews
             </a>
             <a
-              href="https://www.facebook.com/powertech-electrical-sg/reviews"
+              href="https://www.facebook.com/Ask Engineering Pte Ltd/reviews"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200"

@@ -1,0 +1,8 @@
+# Namecheap Hosting Upload Instructions 
+ 
+1. Log into your Namecheap hosting control panel 
+2. Go to File Manager 
+3. Navigate to public_html folder 
+4. Upload ALL files from this deploy-package folder 
+5. Make sure index.html is in the root of public_html 
+6. Your site will be live at electricalworksingapore.com 

@@ -8,7 +8,9 @@ import {
   Star,
   ArrowRight,
   Home,
-  Factory
+  Factory,
+  Camera,
+  Play
 } from 'lucide-react';
 import SocialMediaLinks from '@/components/SocialMediaLinks';
 import GoogleAdsOptimization from '@/components/GoogleAdsOptimization';
@@ -69,7 +71,7 @@ export default function HomePage() {
 
             <div className="relative">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 space-y-6">
-                <h3 className="text-2xl font-bold text-center">Why Choose PowerTech?</h3>
+                <h3 className="text-2xl font-bold text-center">Why Choose Ask Engineering Pte Ltd?</h3>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="h-6 w-6 text-green-400 flex-shrink-0" />
@@ -257,6 +259,73 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Gallery Preview Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              Our Electrical Work Gallery
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Explore our portfolio of electrical installations, repairs, and projects across Singapore. 
+              See the quality and craftsmanship that sets us apart.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            {/* Sample Gallery Items */}
+            <div className="bg-gray-100 rounded-xl p-8 text-center hover:shadow-lg transition-shadow duration-300">
+              <div className="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6 mx-auto">
+                <Camera className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Residential Projects</h3>
+              <p className="text-gray-600 mb-6">
+                Home electrical installations, repairs, and upgrades showcasing our attention to detail.
+              </p>
+              <Link href="/gallery" className="text-blue-600 font-medium hover:text-blue-700 flex items-center justify-center">
+                View Photos <ArrowRight className="h-4 w-4 ml-1" />
+              </Link>
+            </div>
+
+            <div className="bg-gray-100 rounded-xl p-8 text-center hover:shadow-lg transition-shadow duration-300">
+              <div className="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6 mx-auto">
+                <Play className="h-8 w-8 text-purple-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Work Process Videos</h3>
+              <p className="text-gray-600 mb-6">
+                Watch our professional electricians in action, demonstrating our expertise and safety standards.
+              </p>
+              <Link href="/gallery" className="text-blue-600 font-medium hover:text-blue-700 flex items-center justify-center">
+                Watch Videos <ArrowRight className="h-4 w-4 ml-1" />
+              </Link>
+            </div>
+
+            <div className="bg-gray-100 rounded-xl p-8 text-center hover:shadow-lg transition-shadow duration-300">
+              <div className="w-16 h-16 bg-orange-100 rounded-lg flex items-center justify-center mb-6 mx-auto">
+                <Factory className="h-8 w-8 text-orange-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Commercial & Industrial</h3>
+              <p className="text-gray-600 mb-6">
+                Large-scale electrical projects for businesses and industrial facilities across Singapore.
+              </p>
+              <Link href="/gallery" className="text-blue-600 font-medium hover:text-blue-700 flex items-center justify-center">
+                View Projects <ArrowRight className="h-4 w-4 ml-1" />
+              </Link>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <Link
+              href="/gallery"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 inline-flex items-center space-x-2"
+            >
+              <Camera className="h-5 w-5" />
+              <span>View Full Gallery</span>
+            </Link>
           </div>
         </div>
       </section>

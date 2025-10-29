@@ -16,7 +16,7 @@ const googleAdsKeywords = [
   'commercial electrician singapore',
   'residential electrician singapore',
   'electrical contractor singapore',
-  'powertech electrical singapore'
+  'Ask Engineering Pte Ltd singapore'
 ];
 
 const serviceAreas = [
@@ -62,7 +62,7 @@ export default function GoogleAdsOptimization() {
         {/* SEO Optimized Headers */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Licensed Electricians in Singapore | PowerTech Electrical
+            Licensed Electricians in Singapore | Ask Engineering Pte Ltd
           </h1>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
             Professional electrical services across Singapore. Licensed electricians providing 
@@ -122,7 +122,7 @@ export default function GoogleAdsOptimization() {
         {/* Keywords for SEO */}
         <div className="bg-gray-50 rounded-2xl p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-            Why Choose PowerTech Electrical Singapore?
+            Why Choose Ask Engineering Pte Ltd Singapore?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="flex items-start space-x-3">
@@ -174,7 +174,7 @@ export default function GoogleAdsOptimization() {
         <div className="hidden">
           <h2>Electrical Services Singapore</h2>
           <p>
-            PowerTech Electrical Singapore provides professional electrical services including 
+          Ask Engineering Pte Ltd Singapore provides professional electrical services including 
             electrical installation, electrical repair, electrical maintenance, emergency electrical services, 
             residential electrical services, commercial electrical services, and industrial electrical services 
             across all areas of Singapore including Central Singapore, Orchard, Marina Bay, Jurong, Tampines, 
