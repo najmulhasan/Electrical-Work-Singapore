@@ -13,14 +13,14 @@ const socialLinks = [
   {
     name: 'Facebook',
     icon: Facebook,
-    url: 'https://www.facebook.com/share/1KVbzBSKbc/',
+    url: 'https://www.facebook.com/AskEngineeringPteLtd',
     color: 'bg-blue-600 hover:bg-blue-700',
     description: 'Follow us for electrical tips and updates'
   },
   {
     name: 'Instagram',
     icon: Instagram,
-    url: 'https://www.instagram.com/islamfarid8643?igsh=eTl3ODQ5YnRpa25s',
+    url: 'https://www.instagram.com/engineering9181/',
     color: 'bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600',
     description: 'See our electrical work in action'
   },

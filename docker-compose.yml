@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  # Next.js Application
+  nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile.nextjs
+      args:
+        NODE_ENV: production
+    container_name: electrical-works-sg
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_API_URL=http://localhost:3000
+    volumes:
+      - ./public:/app/public:ro
+    networks:
+      - electrical-network
+    restart: unless-stopped
+    depends_on: []
+
+networks:
+  electrical-network:
+    driver: bridge

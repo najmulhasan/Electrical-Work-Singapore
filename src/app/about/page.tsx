@@ -13,7 +13,7 @@ import {
 export const metadata: Metadata = {
   title: 'About Ask Engineering & Pte Ltd | Licensed Electricians',
   description: 'Learn about Ask Engineering & Pte Ltd. Licensed electricians with 15+ years experience providing professional electrical services across Singapore.',
-  keywords: ['about powertech electrical', 'licensed electricians singapore', 'electrical company singapore', 'electrical contractor singapore'],
+  keywords: ['about Ask Engineering Pte Ltd', 'licensed electricians singapore', 'electrical company singapore', 'electrical contractor singapore'],
 };
 
 const certifications = [

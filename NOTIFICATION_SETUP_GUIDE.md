@@ -18,7 +18,7 @@ If you just want email notifications, set up Gmail SMTP:
    - Generate password for "Mail"
 3. **Create `.env.local` file** in your project root:
 ```env
-EMAIL_USER=askengineeringptetld@gmail.com
+EMAIL_USER=askengineeringpteltd@gmail.com
 EMAIL_PASS=your-16-character-app-password
 ```
 
@@ -56,7 +56,7 @@ Create `.env.local` in your project root with all services:
 
 ```env
 # Email Configuration (Gmail SMTP)
-EMAIL_USER=askengineeringptetld@gmail.com
+EMAIL_USER=askengineeringpteltd@gmail.com
 EMAIL_PASS=your-16-character-app-password
 
 # WhatsApp Business API
@@ -87,7 +87,7 @@ BUSINESS_PHONE_NUMBER=+6586439469
 
 3. **Update Environment Variables**:
    ```env
-   EMAIL_USER=askengineeringptetld@gmail.com
+   EMAIL_USER=askengineeringpteltd@gmail.com
    EMAIL_PASS=your-16-character-app-password
    ```
 

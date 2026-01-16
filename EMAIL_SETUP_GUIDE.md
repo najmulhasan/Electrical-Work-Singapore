@@ -40,7 +40,7 @@ Message:
 {{message}}
 
 ---
-This message was sent from your PowerTech Electrical website contact form.
+This message was sent from your Ask Engineering Pte Ltd website contact form.
 ```
 
 4. **Copy the Template ID** (you'll need this later)

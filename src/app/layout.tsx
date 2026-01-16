@@ -96,7 +96,7 @@ export default function RootLayout({
               "@type": "ElectricalContractor",
               "name": "Ask Engineering & Pte Ltd",
               "description": "Professional electrical services in Singapore. Licensed electricians for residential, commercial & industrial projects.",
-              "url": "https://powertech-electrical-sg.com",
+              "url": "https://electricalworksingapore.com",
               "telephone": "+6586439469",
               "email": "askengineeringpteltd@gmail.com",
               "address": {

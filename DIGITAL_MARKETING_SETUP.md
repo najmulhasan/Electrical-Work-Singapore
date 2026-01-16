@@ -72,7 +72,7 @@ Your electrical business website is now fully optimized for digital marketing wi
    - Target: Specific Singapore areas
 
 ### Ad Extensions Setup
-- **Call Extension**: +65 83702423
+- **Call Extension**: +65 8643 9469
 - **Location Extension**: All Singapore areas
 - **Sitelink Extensions**: Services, Contact, About
 - **Callout Extensions**: "24/7 Emergency", "Licensed & Insured", "Free Quotes"
