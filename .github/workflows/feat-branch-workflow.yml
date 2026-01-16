@@ -48,8 +48,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=najmulhasan_Electrical-Work-Singapore
-            -Dsonar.organization=najmulhasan
+            -Dsonar.projectKey=MD_NAZMUL_HASAN_Electrical-Work-Singapore
+            -Dsonar.organization=md-nazmul-hasan
 
       - name: Create Pull Request to integration
         uses: peter-evans/create-pull-request@v5
